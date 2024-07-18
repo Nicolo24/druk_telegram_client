@@ -1,0 +1,18 @@
+{
+  "name": "node_druk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "jimp": "^0.22.12",
+    "node-telegram-bot-api": "^0.66.0",
+    "qrcode-reader": "^1.0.4"
+  }
+}
