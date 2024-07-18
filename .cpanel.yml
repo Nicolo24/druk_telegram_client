@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lerolero/druk-telegram-client.lerolero.com.ec
+    #clear the deploy path
+    - rm -rf $DEPLOYPATH/*
+    #copy the files to the deploy path
+    - /bin/cp -R * $DEPLOYPATH
